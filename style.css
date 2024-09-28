@@ -270,3 +270,47 @@ width: 50%;
     color: black;
     box-shadow: 0 0 25px #b74b4b;
 }
+#skills {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+.skill-title {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.skill-content {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.skill {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px 30px;
+    max-width: 16%;
+    min-width: 15%;
+    text-align: center;
+}
+.skill-bg {
+    
+    padding: 20px 0;
+    transition: .3s linear;
+    width: 100%;
+}
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+@media screen and (max-width: 1200px) {
+    .skill {
+        min-width: 24%;
+    }
+}
